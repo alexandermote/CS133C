@@ -54,8 +54,6 @@ int main()
         }
 
         guessed_word[secret_length] = '\0';
-
-        printf("%s, %s\n", secret_word, guessed_word);
         int bingo = 0;
         char guess = '?';
 
